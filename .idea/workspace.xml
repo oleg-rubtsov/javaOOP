@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64476291-7812-49d1-b383-18ce2deacacf" name="Changes" comment="base architecture">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tracker/InfoMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tracker/InfoMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tracker/Running.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tracker/Running.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tracker/SportsWalking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tracker/SportsWalking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tracker/Swimming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tracker/Swimming.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tracker/Training.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tracker/Training.java" afterDir="false" />
-    </list>
+    <list default="true" id="64476291-7812-49d1-b383-18ce2deacacf" name="Changes" comment="finish tracker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688714783860</updated>
-      <workItem from="1688714784876" duration="32086000" />
+      <workItem from="1688714784876" duration="32425000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -103,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688765591515</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finish tracker">
+      <option name="closed" value="true" />
+      <created>1688854000957</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688854000957</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +125,7 @@
     <MESSAGE value="trying to use package" />
     <MESSAGE value="learn construct" />
     <MESSAGE value="base architecture" />
-    <option name="LAST_COMMIT_MESSAGE" value="base architecture" />
+    <MESSAGE value="finish tracker" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish tracker" />
   </component>
 </project>
