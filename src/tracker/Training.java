@@ -1,28 +1,32 @@
 package tracker;
-import java.util.HashMap;
-import java.util.Map;
 
-public class Training {
+abstract public class Training {
     public int action;
-    public double duration;
-    public double weight;
+    public int duration;
+    public int weight;
     public double LEN_STEP = 0.65;
-
+    public String training_type;
     public int M_IN_KM = 1000;
-    public Training(int action, double duration, double weight) {
+    public int MINUTES_IN_HOUR = 60;
+    public Training(int action, int duration, int weight) {
         this.action = action;
         this.duration = duration;
         this.weight = weight;
     }
-    public Double get_distance() {
-        return this.action * this.LEN_STEP / this.M_IN_KM;
+    private Double get_distance() {
+        return action * LEN_STEP / M_IN_KM;
     }
     public Double get_mean_speed() {
-        double distance = this.get_distance();
-        return distance / this.duration;
+        return get_distance() / duration;
     }
-    public void get_spent_calories(String key, Integer time) {
-    }
-    public void show_training_info(String key, Integer time) {
+    abstract double get_spent_calories();
+    public InfoMessage show_training_info() {
+        return new InfoMessage(
+                training_type,
+                duration,
+                get_distance(),
+                get_mean_speed(),
+                get_spent_calories()
+        );
     }
 }
